@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC34A42219435A670039A8C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34A42119435A670039A8C0 /* AppDelegate.swift */; };
+		CC34A42419435A670039A8C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC34A42319435A670039A8C0 /* Images.xcassets */; };
+		CC34A43019435A670039A8C0 /* DijkstraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34A42F19435A670039A8C0 /* DijkstraTests.swift */; };
+		CC34A43D19435BB30039A8C0 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34A43C19435BB30039A8C0 /* Vertex.swift */; };
+		CC34A43F19435BE60039A8C0 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34A43E19435BE60039A8C0 /* Edge.swift */; };
+		CC34A44119435BFF0039A8C0 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34A44019435BFF0039A8C0 /* Graph.swift */; };
+		CC34A44319435C240039A8C0 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34A44219435C240039A8C0 /* Dijkstra.swift */; };
+		CC34A44519435D1F0039A8C0 /* dijkstraTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC34A44419435D1F0039A8C0 /* dijkstraTester.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC34A42A19435A670039A8C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC34A41419435A660039A8C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC34A41B19435A660039A8C0;
+			remoteInfo = Dijkstra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC34A41C19435A670039A8C0 /* Dijkstra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dijkstra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34A42019435A670039A8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC34A42119435A670039A8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC34A42319435A670039A8C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC34A42919435A670039A8C0 /* DijkstraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DijkstraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC34A42E19435A670039A8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC34A42F19435A670039A8C0 /* DijkstraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraTests.swift; sourceTree = "<group>"; };
+		CC34A43C19435BB30039A8C0 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		CC34A43E19435BE60039A8C0 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		CC34A44019435BFF0039A8C0 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		CC34A44219435C240039A8C0 /* Dijkstra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		CC34A44419435D1F0039A8C0 /* dijkstraTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dijkstraTester.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC34A41919435A660039A8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34A42619435A670039A8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC34A41319435A660039A8C0 = {
+			isa = PBXGroup;
+			children = (
+				CC34A41E19435A670039A8C0 /* Dijkstra */,
+				CC34A42C19435A670039A8C0 /* DijkstraTests */,
+				CC34A41D19435A670039A8C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC34A41D19435A670039A8C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC34A41C19435A670039A8C0 /* Dijkstra.app */,
+				CC34A42919435A670039A8C0 /* DijkstraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC34A41E19435A670039A8C0 /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				CC34A43B19435BA90039A8C0 /* Dijkstra */,
+				CC34A42119435A670039A8C0 /* AppDelegate.swift */,
+				CC34A44419435D1F0039A8C0 /* dijkstraTester.swift */,
+				CC34A42319435A670039A8C0 /* Images.xcassets */,
+				CC34A41F19435A670039A8C0 /* Supporting Files */,
+			);
+			path = Dijkstra;
+			sourceTree = "<group>";
+		};
+		CC34A41F19435A670039A8C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC34A42019435A670039A8C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC34A42C19435A670039A8C0 /* DijkstraTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC34A42F19435A670039A8C0 /* DijkstraTests.swift */,
+				CC34A42D19435A670039A8C0 /* Supporting Files */,
+			);
+			path = DijkstraTests;
+			sourceTree = "<group>";
+		};
+		CC34A42D19435A670039A8C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC34A42E19435A670039A8C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC34A43B19435BA90039A8C0 /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				CC34A43C19435BB30039A8C0 /* Vertex.swift */,
+				CC34A43E19435BE60039A8C0 /* Edge.swift */,
+				CC34A44019435BFF0039A8C0 /* Graph.swift */,
+				CC34A44219435C240039A8C0 /* Dijkstra.swift */,
+			);
+			path = Dijkstra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC34A41B19435A660039A8C0 /* Dijkstra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC34A43319435A670039A8C0 /* Build configuration list for PBXNativeTarget "Dijkstra" */;
+			buildPhases = (
+				CC34A41819435A660039A8C0 /* Sources */,
+				CC34A41919435A660039A8C0 /* Frameworks */,
+				CC34A41A19435A660039A8C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dijkstra;
+			productName = Dijkstra;
+			productReference = CC34A41C19435A670039A8C0 /* Dijkstra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC34A42819435A670039A8C0 /* DijkstraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC34A43619435A670039A8C0 /* Build configuration list for PBXNativeTarget "DijkstraTests" */;
+			buildPhases = (
+				CC34A42519435A670039A8C0 /* Sources */,
+				CC34A42619435A670039A8C0 /* Frameworks */,
+				CC34A42719435A670039A8C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC34A42B19435A670039A8C0 /* PBXTargetDependency */,
+			);
+			name = DijkstraTests;
+			productName = DijkstraTests;
+			productReference = CC34A42919435A670039A8C0 /* DijkstraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC34A41419435A660039A8C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Prunelle;
+				TargetAttributes = {
+					CC34A41B19435A660039A8C0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CC34A42819435A670039A8C0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CC34A41B19435A660039A8C0;
+					};
+				};
+			};
+			buildConfigurationList = CC34A41719435A660039A8C0 /* Build configuration list for PBXProject "Dijkstra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC34A41319435A660039A8C0;
+			productRefGroup = CC34A41D19435A670039A8C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC34A41B19435A660039A8C0 /* Dijkstra */,
+				CC34A42819435A670039A8C0 /* DijkstraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC34A41A19435A660039A8C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34A42419435A670039A8C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34A42719435A670039A8C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC34A41819435A660039A8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34A44119435BFF0039A8C0 /* Graph.swift in Sources */,
+				CC34A42219435A670039A8C0 /* AppDelegate.swift in Sources */,
+				CC34A44519435D1F0039A8C0 /* dijkstraTester.swift in Sources */,
+				CC34A43D19435BB30039A8C0 /* Vertex.swift in Sources */,
+				CC34A43F19435BE60039A8C0 /* Edge.swift in Sources */,
+				CC34A44319435C240039A8C0 /* Dijkstra.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC34A42519435A670039A8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34A43019435A670039A8C0 /* DijkstraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC34A42B19435A670039A8C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC34A41B19435A660039A8C0 /* Dijkstra */;
+			targetProxy = CC34A42A19435A670039A8C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC34A43119435A670039A8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC34A43219435A670039A8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC34A43419435A670039A8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Dijkstra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC34A43519435A670039A8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Dijkstra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC34A43719435A670039A8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dijkstra.app/Dijkstra";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DijkstraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CC34A43819435A670039A8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dijkstra.app/Dijkstra";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DijkstraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC34A41719435A660039A8C0 /* Build configuration list for PBXProject "Dijkstra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34A43119435A670039A8C0 /* Debug */,
+				CC34A43219435A670039A8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC34A43319435A670039A8C0 /* Build configuration list for PBXNativeTarget "Dijkstra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34A43419435A670039A8C0 /* Debug */,
+				CC34A43519435A670039A8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC34A43619435A670039A8C0 /* Build configuration list for PBXNativeTarget "DijkstraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC34A43719435A670039A8C0 /* Debug */,
+				CC34A43819435A670039A8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC34A41419435A660039A8C0 /* Project object */;
+}
