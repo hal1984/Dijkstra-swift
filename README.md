@@ -33,6 +33,8 @@ The test are being runed in the simulator, so it might not be very exact even if
 
 As it's a new feature, I hope in the future release of xCode they will improve perfomance, but for the moment I'm a bit disappointed...
 
+Note: Following this [tweet](https://twitter.com/SwiftDevs/status/474988521623916544) the tests were run with the -OFast optimization flag
+
 ### Roadmap
 
 * Add test in the code, for instance if all the edges doesn't have the same distances dimension, it will crash
