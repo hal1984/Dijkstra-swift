@@ -48,4 +48,6 @@ As it's a new feature, I hope in the future release of xCode they will improve p
 
 [Apache licence 2.0](http://www.tldrlegal.com/license/apache-license-2.0-(apache-2.0)
 
-Please send me an email if you use this (julien.gomes@gmail.com)
+Please send me an email if you use this julien.gomes@gmail.com
+
+Follow me on twitter [@juliengomes](https://twitter.com/juliengomes)
