@@ -40,7 +40,9 @@ As it's a new feature, I hope in the future release of xCode they will improve p
 
 ### Tools/Versions
 
-Run on iOS6+ with ARC. Developed under Xcode 4.6.2. Not tested on other versions.
+* xCode 6
+* iPhone Simulator iPhone 4s/iOS 8
+* Coffee
 
 ### Licence
 
