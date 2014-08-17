@@ -24,7 +24,7 @@ func testDijkstra() {
     
     println()
     println("* Path : ")
-    var path:Vertex[] = dijkstra.getPath(graph.vertexList[graph.vertexList.endIndex-1])!
+    var path:[Vertex] = dijkstra.getPath(graph.vertexList[graph.vertexList.endIndex-1])!
     for step: Vertex in path {
         println(step.name)
     }

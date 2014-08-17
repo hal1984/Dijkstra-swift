@@ -9,6 +9,6 @@
 import Foundation
 
 class Graph {
-    var vertexList: Vertex[] = Vertex[]()
-    var edgeList: Edge[] = Edge[]()
+    var vertexList: [Vertex] = [Vertex]()
+    var edgeList: [Edge] = [Edge]()
 }
